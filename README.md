@@ -7,7 +7,7 @@ Ce projet consiste à créer un labyrinthe avec le language python.
 Nous avons commencé par le réaliser en console. Mais j'ai cherché une meilleur interface. 
 C'est pourquoi je l'ai développé avec Pygame. 
 
-#### Plusieurs codes sont disonibles
+#### Plusieurs codes sont disonibles :
 - Petite interface de labyrinthe : V2
 - Grande interface avec la possibilité de trouver des clés pour ouvrir les portes: V3
 - Ajout d'un deuxième joueur dans la dernière version : V4
@@ -18,7 +18,7 @@ Ce projet consiste à créer des fonctions qui effectuent des tâches en lien av
 - Décomposition d'un nombre
 - Conversions en binaire/hexadécimale/base b
 
-#### Plusieurs codes sont disonibles 
+#### Plusieurs codes sont disonibles :
 - La bibliothèque PrimLib
 - Le code principal PrimEngine
 
