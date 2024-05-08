@@ -31,7 +31,16 @@ Je vous laisse voir par vous même :)
 - Pubbly_city : correspond au code de la boucle principale
 - Pubbly_lib : correspond au code de la librairie de fonctions
 
+## 4e Projet : Site Web Html Css :
+Ce projet nous a permis de découvrir l'univers du développement web avec des consignes claires. 
+Nous devions dans ce projet réaliser plusieurs pages web reliées entre elles par des boutons et un menu. 
 
+#### Plusieurs pages sont disponibles : 
+- Page présentation
+- Page historique
+- Page sources d'information
+- Page projets
+- Quizz
 
 ###### Les étapes pour mettre à jour le code sur github
 ```git add -A```
