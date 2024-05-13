@@ -1,0 +1,67 @@
+/*--------------------------> Les mises en pages de la page Projets <------------------------------------*/
+
+/*Styles pour les images*/
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;                     /*Espacement entre le texte et les images*/
+}
+.img-container img {
+    width: 30%;                         /*Ajustez la largeur selon vos besoins*/
+    height: auto;
+}
+.lab1, .lab2 {
+    width: 30%;                         /*Ajustez la largeur selon vos besoins*/
+    height: auto;
+    margin-bottom: 2%;
+}
+.lab1 {
+    float: left;
+}
+.lab2 {
+    float: center;
+}
+.lab3,
+.lab4,
+.lab5 {
+    float: center;
+    width: 60%
+}
+
+/* Styles pour le texte*/
+.text {
+    font-family: 'Lucida Sans';
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.para-title {
+    font-size: 3vw;
+}
+
+.big-title {
+    margin-left: 23%;
+}
+
+
+/*styles des sections*/
+.premier {
+    flex: 1;
+    background-color: #fff;
+    padding: 2%;                                                                        
+    margin: 1.67%;                                                                       
+    margin-left: 23%;                                                                    
+    border-radius: 0.83%;                                                               
+    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);                                           
+    padding-bottom: 12%;
+}
+.deuxieme,
+.troisieme,                                             /*Permet de ne pas répéter un code*/
+.quatrieme {
+    flex: 1;
+    background-color: #fff;
+    padding: 2%;                                                                        
+    margin: 1.67%;                                                                       
+    margin-left: 23%;                                                                    
+    border-radius: 0.83%;                                                               
+    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);                                           
+}

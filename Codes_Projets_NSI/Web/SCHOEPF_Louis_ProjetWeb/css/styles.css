@@ -1,0 +1,332 @@
+/*--------------------------> Les mises en pages de la page Index <------------------------------------*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Les polices du site*/
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*Rubrique réservée à l'image*/
+img {
+    width: 12.5%;                                                                         /*150px sur 1200px*/
+    height: 16.67%;                                                                       /*200px sur 1200px*/
+    display: block;                                                                       /*Pouvoir gérer sa place dans le cadre*/
+    margin: auto;                                                                         /*Pour centrer l'image*/
+}
+
+/*Tête de page*/
+header.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;                                                /* Les trois éléments dans une grille */
+    align-items: center;
+    justify-content: space-between;                                                      /* Pour espacer les éléments */
+    padding: 10px;                                                                       /* Ajouter un peu d'espace autour des éléments */
+}
+header.header img {
+    width: 240px;
+}
+section.top-page {
+    background: url('../images/bg1.jpeg');
+    background-size: cover;
+    height: 40vh;
+    padding: 25px;
+}
+
+
+/*Rubrique principale*/
+.principale {
+    background-color: #fff;
+    padding: 2.5%;                                                                        /*20px sur 1200px*/
+    margin: 1.67%;                                                                        /*20px sur 1200px*/
+    margin-left: 23%;                                                                     /*Décaler par rapport au menu*/
+    border-radius: 0.83%;                                                                 /*10px sur 1200px*/
+    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);                                           /*10px sur 1200px*/
+}
+
+/*Les rubriques de la page*/
+.conteneur {
+    display: grid;                                                                        /*Pouvoir les bouger librement et les mettres à côté du menu*/
+    grid-template-columns: 15% 1fr;                                                       /* Le menu et le contenu prennent chacun 15% et le reste en 1fr */
+}
+.menu {
+    width: 15%;  
+    background-color: rgba(255, 255, 255, 0);  
+    padding: 2%;  
+    border-radius: 0.83%;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: calc(100vh - 60px);
+}
+
+/* Titre du menu */
+.menu h2 {
+    margin-top: 0; /* Réduire la marge en haut */
+    margin-bottom: 10px; /* Ajouter une marge en bas */
+}
+
+/* Changement de couleur pour les liens du menu */
+.menu a {
+    color: orange; /* Couleur ambre */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: darkorange; /* Couleur ambre foncé au survol */
+}
+.interet,
+.rubspe {
+    background-color: #fff;
+    padding: 2.5%;                                                                        /*30px sur 1200px*/
+    margin: 1.67%;                                                                        /*20px sur 1200px*/
+    margin-left: 23%;                                                                     /*Ajoute un décalage égal à la largeur du menu*/
+    border-radius: 0.83%;                                                                 /*10px sur 1200px*/
+    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);                                           /*10px sur 1200px*/
+}
+
+/*Les textes*/
+h1, h2, h3 {
+    color: #333;
+}
+h1 {
+    font-size: 60px;
+}
+
+.enorme-title {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: #fff;
+    padding-top: 5%;
+    margin-left: 20%;
+}
+.big-title {
+    text-align: center;
+}
+h2, h3 {
+    font-size: 35px;
+}
+.orange {
+    font-size: 40px;
+    color: orange;
+}
+p {
+    font-size: 27px;
+}
+li {
+    font-size: 20px;
+}
+h1:first-child {
+    margin-top: 1.67%;                                                                    /*Ajouter une marge au premier h1*/
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*Le footer*/
+footer {
+    background-color:#010133;
+    color: #fff;
+    padding: 0.83%;                                                                       /*10px sur 1200px*/
+    text-align: center;
+}
+.footer {
+    font-size: 25px;
+    color: #fff;
+}
+footer a {
+    margin-right: 0.83%;                                                                 /*10px sur 1200px*/
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/*--------------------------> Les mises en pages de la page Histoire <------------------------------------*/
+
+/*Les inportations pour la page histoire*/
+@import url(https://db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift);
+
+/*La création du tableau avec l'option .grid*/
+.tableau {
+    display: grid;                                                                       /* utilisation de .grid*/
+    grid-template-columns: auto auto;
+    margin: 1.67%;                                                                       /*20px sur 1200px*/
+    margin-left: 23%;
+}
+  .tableau div:nth-child(n+3) {                                                          /*Gérer les distances et les différentes cases pour les rendres de la même taille et invisibles*/                                           
+    border-top: none;
+}
+  .tableau div:nth-child(odd) {
+    border-right: none;
+}
+.tableau div:nth-child(2) {
+    width: 100%; 
+}
+
+/*Les polices*/
+.intro {
+    font-size: 1.5vw;                                                                    /*Taille de la police*/
+    font-style: italic;                                                                  /*Style de la police*/
+    text-align: left;                                                                    /*Alignement du texte*/
+    margin-bottom: 2%;                                                                   /*Marge en bas*/
+    margin-left: 23%;                                                                    /*Marge à gauche*/
+    margin-right: 10%;
+}
+.para-title {
+    font-size: 1.8vw;                                                                    /*Taille de la police*/
+    font-family: 'Segoe UI', sans-serif;                                                 /*Type de Police*/
+    text-decoration: underline;                                                          /*Soulignement du texte*/
+    text-decoration-color: green;                                                      /*Couleur du soulignement*/
+}
+.frise-title {
+    margin-left: 23%;
+    font-size: 2vw;                                                                      /* Taille de la police*/
+    font-family: 'Segoe UI', sans-serif;                                                 /*Type de Police*/
+    text-decoration: underline;                                                          /*Soulignement du texte*/
+    text-decoration-color: green;                                                      /*Couleur du soulignement*/
+}
+.gras {
+    font-weight: bold;                                                                   /*Gras*/
+}
+.text {
+    font-family: 'Bahnschrift', sans-serif; 
+    font-size: 1.3vw; 
+}
+.description {
+    font-family: Arial, sans-serif; 
+    font-size: 0.9vw; 
+    font-style: italic;
+    margin-right: 10%; 
+}
+.conclu {
+    font-size: 1.5vw; 
+    font-style: italic; 
+    text-align: left; 
+    margin-top: 2%; 
+    margin-left: 23%; 
+    margin-right: 10%;
+}
+
+
+/*Les images*/
+.img-container {
+    display: flex;                                                                  /*Affichage en flexbox*/
+    flex-direction: column;                                                         /*Disposition en colonne*/
+    align-items: center;                                                            /*Alignement des éléments au centre horizontalement*/
+    margin-top: 5%;     
+}
+.img-container img {
+    width: 70%;                                                                     /*Largeur de l'image*/
+    max-width: 100%;                                                                /*Largeur maximale de l'image*/
+    height: auto;                                                                   /*Hauteur automatique pour conserver les proportions*/
+    margin-bottom: 2%;  
+}
+.img-container2 img {
+    width: 90%;
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 2%; 
+    margin-top: 5%; 
+}
+.img-container3 img {
+    width: 90%; 
+    max-width: 100%; 
+    height: auto;           
+    margin-bottom: 2%; 
+    margin-top: 3%; 
+}
+.img-frise {
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-left: 23%;
+}
+
+/*Le bouton*/
+.container {
+    text-align: center;
+}
+
+.bouton-orange {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 30px;                                                             /*Augmentation de 50%*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;                                                                /*Augmentation de 50%*/
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.bouton-orange:hover {
+    background-color: darkorange;
+}
+
+.qcm {
+    color:#fff;
+}
+
+/*--------------------------> Les mises en pages de la page Sources <------------------------------------*/
+/*Les polices*/
+.big-title {
+    font-size: 80px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.lien-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+/*Les liens*/
+.liens {
+    margin: 50px auto;
+    width: 80%;
+    margin-left: 23%;
+}
+
+/* Liste des liens */
+.liens ul {
+    padding-left: 0;
+}
+
+.liens ul li {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+/*Liens*/
+.liens a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.liens a:hover {
+    text-decoration: underline;
+}
+
+/*Description*/
+.liens p {
+    font-size: 18px;
+    margin-top: 10px;
+}

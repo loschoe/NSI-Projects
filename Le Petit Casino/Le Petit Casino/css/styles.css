@@ -1,0 +1,144 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    display: grid;
+    grid-template-columns: auto 10%; /* Colonne automatique pour le titre et colonne fixe pour le logo */
+    align-items: center; /* Centrer verticalement */
+    padding: 0.5%;
+    background-color: #F0C300;
+}
+
+.big-title {
+    font-size: 70px;
+    margin-left: 15%;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Impact';
+    padding-right: 0;
+    grid-column: 1; /* Titre dans la première colonne */
+}
+
+.logo {
+    width: 100%; /* Utilisez toute la largeur de la colonne */
+    justify-self: end; /* Alignement à droite */
+}
+
+/* Menu */
+.menu {
+    width: 15%;
+    padding: 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: calc(100vh - 60px); /*Réduire la hauteur du menu pour qu'il ne couvre pas le footer*/
+    border-radius: 0.83%;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.menu ul {
+    list-style: circle;
+}
+
+.menu li {
+    font-size: 30px;
+}
+
+/* Rubrique principale */
+.principale {
+    background-color: #fff;
+    padding: 2.5%;
+    margin: 1.67%;
+    margin-left: 23%; /* Décaler par rapport au menu */
+    border-radius: 0.83%;
+    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);
+}
+
+/* Rubriques de la page */
+.but,
+.histoire,
+.materiel,
+.regles {
+    flex: 1;
+    background-color: #fff;
+    padding: 2.5%;
+    margin: 1.67%;
+    margin-left: 23%; /* Ajoute un décalage égal à la largeur du menu */
+    border-radius: 0.83%;
+    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);
+}
+
+.illu {
+    margin-left: 30%;
+    margin-top: 1%;
+    width: 62%;
+}
+
+/* Textes */
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Segoe UI';
+    margin-top: 1.67%;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 60%;
+}
+.title {
+    font-size: 50px;
+    margin-top: 0%;
+}
+.under-title {
+    font-size: 70px;
+    text-align: left;
+}
+
+p {
+    font-size: 27px;
+    font-family: Georgia;
+}
+
+ul{
+    font-size: 40px; /* Choisissez la taille de la police pour les puces */
+}
+/* Footer */
+footer {
+    background-color: #F0C300;
+    color: #fff;
+    padding: 0.83%;
+    text-align: center;
+}
+
+.footer {
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    color: #fff;
+}
+
+footer a {
+    margin-right: 0.83%;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.litle-title {
+    font-size: 30px;
+    margin-left: 4%;
+}
