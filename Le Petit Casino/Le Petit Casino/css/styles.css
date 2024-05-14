@@ -34,7 +34,7 @@ body {
 .menu {
     width: 15%;
     padding: 2%;
-    position: fixed;
+    position: sty;
     top: 0;
     left: 0;
     bottom: calc(100vh - 60px); /*Réduire la hauteur du menu pour qu'il ne couvre pas le footer*/
