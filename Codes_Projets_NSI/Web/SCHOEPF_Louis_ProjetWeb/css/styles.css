@@ -3,7 +3,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Les polices du site*/
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #F4F4F4;
 }
 
 /*Rubrique réservée à l'image*/
@@ -109,6 +109,11 @@ h1 {
 }
 h2, h3 {
     font-size: 35px;
+}
+.rubrique {
+    text-decoration: underline;
+    font-size: 45px;
+    text-decoration-color: red;
 }
 .orange {
     font-size: 40px;
@@ -300,7 +305,6 @@ footer a {
 /*Les liens*/
 .liens {
     margin: 50px auto;
-    width: 80%;
     margin-left: 23%;
 }
 
