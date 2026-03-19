@@ -122,7 +122,6 @@ while running:
         L[8][19] = 5
 
     if L[y][x] == 5:
-        print("T'as gagné sale fils de pute")
         root = tk.Tk()
         root.title("Bravo !!")
 
