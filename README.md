@@ -7,6 +7,9 @@ Ce projet consiste à créer un labyrinthe avec le language python.
 Nous avons commencé par le réaliser en console. Mais j'ai cherché une meilleur interface. 
 C'est pourquoi je l'ai développé avec Pygame. 
 
+**Attention**! certains fichiers codes comportent des bugs dans les chemins d'accès des images. 
+A corriger lors du clonage du repo
+
 #### Plusieurs codes sont disonibles :
 - Petite interface de labyrinthe : V2
 - Grande interface avec la possibilité de trouver des clés pour ouvrir les portes: V3
